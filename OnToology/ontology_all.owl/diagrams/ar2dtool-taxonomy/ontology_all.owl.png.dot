@@ -1,0 +1,43 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://vivoweb.org/ontology/core#College" "base:ClinicalPopulation" "base:DataType" "http://vivoweb.org/ontology/core#University" "base:WorkingGroup" "base:SubstanceAbuse" "base:Dataset" "base:ProjectCohort" "base:CardiovascularDisorder" "base:InfectiousDisorder" "base:CerebrovascularDisorder" "http://vivoweb.org/ontology/core#Institute" "http://vivoweb.org/ontology/core#Department" "base:Location" "base:MoodDisorder" "base:HealthyVariation" "base:VascularDisorder" "base:BriefPsychiatricRatingScale" "base:GeneticDataType" "base:CohortGroup" "base:Disorder" "base:YoungManiaRatingScale" "base:NeurologicalDisorder" "http://xmlns.com/foaf/0.1/Organization" "base:RespiratoryDisorder" "base:SignificantGeneralMedicalCondition" "base:ClinicalGlobalImpressionsScale" "base:SubstanceDependence" "base:OrganicMedicalDisorder" "http://vivoweb.org/ontology/core#Consortium" "base:MedicalRating" "base:Country" "base:Cohort" "base:HamiltonDepressionRatingScale" "base:AnxietyDisorder" "base:City" "base:Cancer" "http://vivoweb.org/ontology/core#Hospital" "base:GeneticStudy" "base:MentalHealthDisorder" "base:Methodology" "base:GeneticDisorder" "base:BrainScanDataType" "http://schema.org/Dataset" "base:EndocrineDisorder" ; /*classes style*/
+	"base:BrainScanDataType" -> "base:DataType" [ label = "rdfs:subClassOf" ];
+	"http://vivoweb.org/ontology/core#Consortium" -> "http://xmlns.com/foaf/0.1/Organization" [ label = "rdfs:subClassOf" ];
+	"base:AnxietyDisorder" -> "base:MentalHealthDisorder" [ label = "rdfs:subClassOf" ];
+	"base:RespiratoryDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:CerebrovascularDisorder" -> "base:VascularDisorder" [ label = "rdfs:subClassOf" ];
+	"base:HamiltonDepressionRatingScale" -> "base:MedicalRating" [ label = "rdfs:subClassOf" ];
+	"base:Methodology" -> "base:WorkingGroup" [ label = "rdfs:subClassOf" ];
+	"base:ProjectCohort" -> "base:Cohort" [ label = "rdfs:subClassOf" ];
+	"base:HealthyVariation" -> "base:WorkingGroup" [ label = "rdfs:subClassOf" ];
+	"http://vivoweb.org/ontology/core#Institute" -> "http://xmlns.com/foaf/0.1/Organization" [ label = "rdfs:subClassOf" ];
+	"base:InfectiousDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:GeneticStudy" -> "base:WorkingGroup" [ label = "rdfs:subClassOf" ];
+	"base:CohortGroup" -> "base:Cohort" [ label = "rdfs:subClassOf" ];
+	"base:YoungManiaRatingScale" -> "base:MedicalRating" [ label = "rdfs:subClassOf" ];
+	"base:NeurologicalDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:SubstanceDependence" -> "base:SubstanceAbuse" [ label = "rdfs:subClassOf" ];
+	"base:Dataset" -> "http://schema.org/Dataset" [ label = "rdfs:subClassOf" ];
+	"base:GeneticDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:CardiovascularDisorder" -> "base:VascularDisorder" [ label = "rdfs:subClassOf" ];
+	"base:MentalHealthDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"http://vivoweb.org/ontology/core#Hospital" -> "http://xmlns.com/foaf/0.1/Organization" [ label = "rdfs:subClassOf" ];
+	"base:EndocrineDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:VascularDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:SubstanceAbuse" -> "base:MentalHealthDisorder" [ label = "rdfs:subClassOf" ];
+	"base:SignificantGeneralMedicalCondition" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"http://vivoweb.org/ontology/core#College" -> "http://xmlns.com/foaf/0.1/Organization" [ label = "rdfs:subClassOf" ];
+	"base:Country" -> "base:Location" [ label = "rdfs:subClassOf" ];
+	"base:Cancer" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"http://vivoweb.org/ontology/core#University" -> "http://xmlns.com/foaf/0.1/Organization" [ label = "rdfs:subClassOf" ];
+	"base:OrganicMedicalDisorder" -> "base:Disorder" [ label = "rdfs:subClassOf" ];
+	"base:ClinicalGlobalImpressionsScale" -> "base:MedicalRating" [ label = "rdfs:subClassOf" ];
+	"base:MoodDisorder" -> "base:MentalHealthDisorder" [ label = "rdfs:subClassOf" ];
+	"base:GeneticDataType" -> "base:DataType" [ label = "rdfs:subClassOf" ];
+	"base:BriefPsychiatricRatingScale" -> "base:MedicalRating" [ label = "rdfs:subClassOf" ];
+	"base:City" -> "base:Location" [ label = "rdfs:subClassOf" ];
+	"base:ClinicalPopulation" -> "base:WorkingGroup" [ label = "rdfs:subClassOf" ];
+	"http://vivoweb.org/ontology/core#Department" -> "http://xmlns.com/foaf/0.1/Organization" [ label = "rdfs:subClassOf" ];
+
+}
