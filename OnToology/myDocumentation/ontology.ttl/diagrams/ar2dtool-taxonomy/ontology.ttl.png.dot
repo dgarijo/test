@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "le:Speleothem" "le:LakeSediment" "le:GlacierIce" "le:Peat" "le:Hybrid" "le:ProxyArchive" "le:MolluskShells" "le:Wood" "le:Sclerosponge" "le:Rock" "le:Coral" "le:MarineSediment" "le:Document" ; /*classes style*/
+	"le:Rock" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Document" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Sclerosponge" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Wood" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Speleothem" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:GlacierIce" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:LakeSediment" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:MolluskShells" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Coral" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:MarineSediment" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Peat" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+	"le:Hybrid" -> "le:ProxyArchive" [ label = "rdfs:subClassOf" ];
+
+}

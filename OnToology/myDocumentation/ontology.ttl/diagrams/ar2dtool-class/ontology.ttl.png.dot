@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "le:Coral" ; /*classes style*/
+	"le:Coral" -> "http://example.com" [ label = ":term_status" ];
+	"le:Coral" -> "http://wiki.linked.earth/Coral" [ label = ":source" ];
+	"le:" -> "http://www.cefns.nau.edu/~npm4/" [ label = ":creator" ];
+	"le:" -> "http://www.isi.edu/~gil/" [ label = ":contributor" ];
+	"le:" -> "http://linked.earth/ontology/archive" [ label = "owl:versionIRI" ];
+	"le:" -> "http://orcid.org/0000-0001-5920-4751" [ label = ":creator" ];
+	"le:" -> "http://earth.usc.edu/~khider/" [ label = ":creator" ];
+	"le:" -> "f56d92f45d05e61da1d1e0b5fdab2916" [ label = ":contributor" ];
+
+}
