@@ -1,0 +1,1121 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en-gb", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/ro/terms/workflow-run", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "https://bioschemas.org" ],
+    "title" : {
+      "undefined" : "Workflow Run Crate namespace"
+    },
+    "iri" : "https://w3id.org/ro/terms/workflow-run#",
+    "author" : [ "https://researchobject.org/workflow-run-crate/" ],
+    "description" : {
+      "undefined" : "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://spdx.org/licenses/Apache-2.0",
+        "type" : "iri"
+      }, {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://spdx.org/licenses/Apache-2.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://researchobject.org/workflow-run-crate/",
+        "type" : "iri"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://researchobject.org/workflow-run-crate/",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "wfrun",
+        "type" : "label"
+      } ],
+      "name" : [ {
+        "identifier" : "name",
+        "language" : "undefined",
+        "value" : "Workflow Run Crate namespace",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Workflow Run Crate namespace",
+        "type" : "label"
+      } ],
+      "version" : [ {
+        "identifier" : "version",
+        "language" : "undefined",
+        "value" : "0.6.0",
+        "type" : "label"
+      } ],
+      "hasDefinedTerm" : [ {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#connection",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#SIFImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#sha1",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#tag",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#containerImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#targetParameter",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#sourceParameter",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#registry",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#DockerImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#sha256",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#md5",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#environment",
+        "type" : "iri"
+      }, {
+        "identifier" : "hasDefinedTerm",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#sha512",
+        "type" : "iri"
+      } ],
+      "url" : [ {
+        "identifier" : "url",
+        "language" : "undefined",
+        "value" : "https://www.researchobject.org/ro-terms/workflow-run/",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://schema.org/MediaObject",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediaObject"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://schema.org/PropertyValue",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PropertyValue"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ContainerImage",
+      "en-gb" : "ContainerImage"
+    },
+    "subClasses" : [ "4", "5" ],
+    "comment" : {
+      "en-gb" : "A containerisation software container image"
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://schema.org/Project",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project"
+    },
+    "individuals" : [ {
+      "iri" : "https://researchobject.org/workflow-run-crate/",
+      "baseIri" : "https://researchobject.org",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "en-gb",
+          "value" : "Workflow Run Crate task force",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "en-gb" : "Workflow Run Crate task force"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://schema.org/HowToStep",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HowToStep"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://schema.org/SoftwareSourceCode",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareSourceCode"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://schema.org/URL",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "URL"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Agent",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "individuals" : [ {
+      "iri" : "https://researchobject.org/workflow-run-crate/",
+      "baseIri" : "https://researchobject.org",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "en-gb",
+          "value" : "Workflow Run Crate task force",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "en-gb" : "Workflow Run Crate task force"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://schema.org/CreativeWork",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreativeWork"
+    },
+    "subClasses" : [ "2" ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://schema.org/DefinedTermSet",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DefinedTermSet"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/ro/terms/workflow-run#",
+      "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+      "labels" : { }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://schema.org/SoftwareApplication",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareApplication"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ParameterConnection",
+      "en-gb" : "ParameterConnection"
+    },
+    "comment" : {
+      "en-gb" : "A connection between parameters of different applications"
+    },
+    "id" : "21",
+    "superClasses" : [ "27" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "35"
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "29", "11", "40" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#DockerImage",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DockerImage",
+      "en-gb" : "DockerImage"
+    },
+    "comment" : {
+      "en-gb" : "A Docker container image"
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "41" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "39"
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "0", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#SIFImage",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SIFImage",
+      "en-gb" : "SIFImage"
+    },
+    "comment" : {
+      "en-gb" : "A Singularity Image Format container image"
+    },
+    "id" : "5",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "40" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "20"
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://schema.org/Intangible",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Intangible"
+    },
+    "subClasses" : [ "21" ],
+    "attributes" : [ "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://schema.org/CreateAction",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateAction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://bioschemas.org/ComputationalWorkflow",
+    "baseIri" : "https://bioschemas.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComputationalWorkflow"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://bioschemas.org/FormalParameter",
+    "baseIri" : "https://bioschemas.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FormalParameter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41"
+  } ],
+  "property" : [ {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#md5",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "10",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/Text",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/MediaObject",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "md5",
+      "en-gb" : "md5"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en-gb" : "md5 checksum as a hexadecimal string"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#containerImage",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/URL",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/CreateAction",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "containerImage",
+      "en-gb" : "containerImage"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en-gb" : "A container image associated with this entity"
+    },
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#tag",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "18",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/Text",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/MediaObject",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "tag",
+      "en-gb" : "tag"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en-gb" : "A tag assigned to a software product, such as a container image"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#connection",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://bioschemas.org/ComputationalWorkflow",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/HowToStep",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "connection",
+      "en-gb" : "connection"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en-gb" : "A parameter connection created by this workflow"
+    },
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#registry",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "24",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/Text",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "registry",
+      "en-gb" : "registry"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en-gb" : "A service to register software products, such as container images"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  }, {
+    "range" : "27",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#resourceUsage",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/PropertyValue",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/CreateAction",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "resourceUsage",
+      "en-gb" : "resourceUsage"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en-gb" : "A resource usage item, such as peak memory"
+    },
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#sha512",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "36",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/Text",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/MediaObject",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sha512",
+      "en-gb" : "sha512"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en-gb" : "sha512 checksum as a hexadecimal string"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#environment",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "39",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/PropertyValue",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://bioschemas.org/FormalParameter",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/CreateAction",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://bioschemas.org/ComputationalWorkflow",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/SoftwareApplication",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/SoftwareSourceCode",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "environment",
+      "en-gb" : "environment"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en-gb" : "Environment variables used by the application"
+    },
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#sourceParameter",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "41",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://bioschemas.org/FormalParameter",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sourceParameter",
+      "en-gb" : "sourceParameter"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en-gb" : "The source (upstream) parameter"
+    },
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#sha1",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "43",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/Text",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/MediaObject",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sha1",
+      "en-gb" : "sha1"
+    },
+    "domain" : "30",
+    "comment" : {
+      "en-gb" : "sha1 checksum as a hexadecimal string"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#sha256",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/Text",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "http://schema.org/MediaObject",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sha256",
+      "en-gb" : "sha256"
+    },
+    "domain" : "44",
+    "comment" : {
+      "en-gb" : "sha256 checksum as a hexadecimal string"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/ro/terms/workflow-run#targetParameter",
+    "baseIri" : "https://w3id.org/ro/terms/workflow-run",
+    "range" : "41",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#",
+        "type" : "iri"
+      } ],
+      "rangeIncludes" : [ {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
+        "value" : "https://bioschemas.org/FormalParameter",
+        "type" : "iri"
+      } ],
+      "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "targetParameter",
+      "en-gb" : "targetParameter"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en-gb" : "The target (downstream) parameter"
+    },
+    "attributes" : [ "object" ],
+    "id" : "48"
+  } ]
+}

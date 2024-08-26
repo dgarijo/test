@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/ro/terms/workflow-run#"
+     xml:base="https://w3id.org/ro/terms/workflow-run"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="https://w3id.org/ro/terms/workflow-run#">
+        <terms:creator rdf:resource="https://researchobject.org/workflow-run-crate/"/>
+        <terms:description>A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl</terms:description>
+        <terms:license rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <terms:title>Workflow Run Crate namespace</terms:title>
+        <vann:preferredNamespacePrefix>wfrun</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/ro/terms/workflow-run#</vann:preferredNamespaceUri>
+        <schema:creator rdf:resource="https://researchobject.org/workflow-run-crate/"/>
+        <schema:description>A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl</schema:description>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#DockerImage"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#SIFImage"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#connection"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#containerImage"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#environment"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#md5"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#registry"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#sha1"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#sha256"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#sha512"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#sourceParameter"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#tag"/>
+        <schema:hasDefinedTerm rdf:resource="https://w3id.org/ro/terms/workflow-run#targetParameter"/>
+        <schema:license rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <schema:name>Workflow Run Crate namespace</schema:name>
+        <schema:url>https://www.researchobject.org/ro-terms/workflow-run/</schema:url>
+        <schema:version>0.6.0</schema:version>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://schema.org/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/creator"/>
+    
+
+
+    <!-- http://schema.org/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/description"/>
+    
+
+
+    <!-- http://schema.org/domainIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/domainIncludes"/>
+    
+
+
+    <!-- http://schema.org/hasDefinedTerm -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/hasDefinedTerm"/>
+    
+
+
+    <!-- http://schema.org/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/license"/>
+    
+
+
+    <!-- http://schema.org/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/name"/>
+    
+
+
+    <!-- http://schema.org/rangeIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/rangeIncludes"/>
+    
+
+
+    <!-- http://schema.org/url -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/url"/>
+    
+
+
+    <!-- http://schema.org/version -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#connection -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ro/terms/workflow-run#connection">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/HowToStep"/>
+                    <rdf:Description rdf:about="https://bioschemas.org/ComputationalWorkflow"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/HowToStep"/>
+        <schema:domainIncludes rdf:resource="https://bioschemas.org/ComputationalWorkflow"/>
+        <schema:rangeIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <rdfs:comment xml:lang="en-gb">A parameter connection created by this workflow</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">connection</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#containerImage -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ro/terms/workflow-run#containerImage">
+        <rdfs:domain rdf:resource="http://schema.org/CreateAction"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                    <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <schema:domainIncludes rdf:resource="http://schema.org/CreateAction"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/URL"/>
+        <schema:rangeIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <rdfs:comment xml:lang="en-gb">A container image associated with this entity</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">containerImage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#environment -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ro/terms/workflow-run#environment">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/CreateAction"/>
+                    <rdf:Description rdf:about="http://schema.org/SoftwareApplication"/>
+                    <rdf:Description rdf:about="http://schema.org/SoftwareSourceCode"/>
+                    <rdf:Description rdf:about="https://bioschemas.org/ComputationalWorkflow"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/PropertyValue"/>
+                    <rdf:Description rdf:about="https://bioschemas.org/FormalParameter"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <schema:domainIncludes rdf:resource="http://schema.org/CreateAction"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/SoftwareApplication"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/SoftwareSourceCode"/>
+        <schema:domainIncludes rdf:resource="https://bioschemas.org/ComputationalWorkflow"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/PropertyValue"/>
+        <schema:rangeIncludes rdf:resource="https://bioschemas.org/FormalParameter"/>
+        <rdfs:comment xml:lang="en-gb">Environment variables used by the application</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">environment</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#resourceUsage -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ro/terms/workflow-run#resourceUsage">
+        <rdfs:domain rdf:resource="http://schema.org/CreateAction"/>
+        <rdfs:range rdf:resource="http://schema.org/PropertyValue"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/CreateAction"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/PropertyValue"/>
+        <rdfs:comment xml:lang="en-gb">A resource usage item, such as peak memory</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">resourceUsage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#sourceParameter -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ro/terms/workflow-run#sourceParameter">
+        <rdfs:domain rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <rdfs:range rdf:resource="https://bioschemas.org/FormalParameter"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <schema:rangeIncludes rdf:resource="https://bioschemas.org/FormalParameter"/>
+        <rdfs:comment xml:lang="en-gb">The source (upstream) parameter</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">sourceParameter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#targetParameter -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/ro/terms/workflow-run#targetParameter">
+        <rdfs:domain rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <rdfs:range rdf:resource="https://bioschemas.org/FormalParameter"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ParameterConnection"/>
+        <schema:rangeIncludes rdf:resource="https://bioschemas.org/FormalParameter"/>
+        <rdfs:comment xml:lang="en-gb">The target (downstream) parameter</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">targetParameter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#md5 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ro/terms/workflow-run#md5">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/MediaObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/MediaObject"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en-gb">md5 checksum as a hexadecimal string</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">md5</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#registry -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ro/terms/workflow-run#registry">
+        <rdfs:domain rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en-gb">A service to register software products, such as container images</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">registry</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#sha1 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ro/terms/workflow-run#sha1">
+        <rdfs:domain rdf:resource="http://schema.org/MediaObject"/>
+        <rdfs:domain rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/MediaObject"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en-gb">sha1 checksum as a hexadecimal string</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">sha1</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#sha256 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ro/terms/workflow-run#sha256">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/MediaObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/MediaObject"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en-gb">sha256 checksum as a hexadecimal string</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">sha256</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#sha512 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ro/terms/workflow-run#sha512">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/MediaObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/MediaObject"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en-gb">sha512 checksum as a hexadecimal string</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">sha512</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#tag -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/ro/terms/workflow-run#tag">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/MediaObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <schema:domainIncludes rdf:resource="http://schema.org/MediaObject"/>
+        <schema:domainIncludes rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en-gb">A tag assigned to a software product, such as a container image</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">tag</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/Agent -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Agent"/>
+    
+
+
+    <!-- http://schema.org/CreateAction -->
+
+
+    <owl:Class rdf:about="http://schema.org/CreateAction"/>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+
+    <owl:Class rdf:about="http://schema.org/CreativeWork"/>
+    
+
+
+    <!-- http://schema.org/DefinedTermSet -->
+
+
+    <owl:Class rdf:about="http://schema.org/DefinedTermSet"/>
+    
+
+
+    <!-- http://schema.org/HowToStep -->
+
+
+    <owl:Class rdf:about="http://schema.org/HowToStep"/>
+    
+
+
+    <!-- http://schema.org/Intangible -->
+
+
+    <owl:Class rdf:about="http://schema.org/Intangible"/>
+    
+
+
+    <!-- http://schema.org/MediaObject -->
+
+
+    <owl:Class rdf:about="http://schema.org/MediaObject"/>
+    
+
+
+    <!-- http://schema.org/Project -->
+
+
+    <owl:Class rdf:about="http://schema.org/Project"/>
+    
+
+
+    <!-- http://schema.org/PropertyValue -->
+
+
+    <owl:Class rdf:about="http://schema.org/PropertyValue"/>
+    
+
+
+    <!-- http://schema.org/SoftwareApplication -->
+
+
+    <owl:Class rdf:about="http://schema.org/SoftwareApplication"/>
+    
+
+
+    <!-- http://schema.org/SoftwareSourceCode -->
+
+
+    <owl:Class rdf:about="http://schema.org/SoftwareSourceCode"/>
+    
+
+
+    <!-- http://schema.org/URL -->
+
+
+    <owl:Class rdf:about="http://schema.org/URL"/>
+    
+
+
+    <!-- https://bioschemas.org/ComputationalWorkflow -->
+
+
+    <owl:Class rdf:about="https://bioschemas.org/ComputationalWorkflow"/>
+    
+
+
+    <!-- https://bioschemas.org/FormalParameter -->
+
+
+    <owl:Class rdf:about="https://bioschemas.org/FormalParameter"/>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#ContainerImage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ro/terms/workflow-run#ContainerImage">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:comment xml:lang="en-gb">A containerisation software container image</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">ContainerImage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#DockerImage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ro/terms/workflow-run#DockerImage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <rdfs:comment xml:lang="en-gb">A Docker container image</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">DockerImage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#ParameterConnection -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ro/terms/workflow-run#ParameterConnection">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment xml:lang="en-gb">A connection between parameters of different applications</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">ParameterConnection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run#SIFImage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/ro/terms/workflow-run#SIFImage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ro/terms/workflow-run#ContainerImage"/>
+        <rdfs:comment xml:lang="en-gb">A Singularity Image Format container image</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/ro/terms/workflow-run#"/>
+        <rdfs:label xml:lang="en-gb">SIFImage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://researchobject.org/workflow-run-crate/ -->
+
+
+    <owl:NamedIndividual rdf:about="https://researchobject.org/workflow-run-crate/">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://schema.org/Project"/>
+        <schema:name xml:lang="en-gb">Workflow Run Crate task force</schema:name>
+        <rdfs:label xml:lang="en-gb">Workflow Run Crate task force</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/ro/terms/workflow-run# -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/ro/terms/workflow-run#">
+        <rdf:type rdf:resource="http://schema.org/DefinedTermSet"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18.2021-07-30T21:49:07Z) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,665 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/HowToStep"
+    }, {
+      "@id" : "https://bioschemas.org/ComputationalWorkflow"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/PropertyValue"
+    }, {
+      "@id" : "https://bioschemas.org/FormalParameter"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/MediaObject"
+    }, {
+      "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/MediaObject"
+    }, {
+      "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/MediaObject"
+    }, {
+      "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/MediaObject"
+    }, {
+      "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/URL"
+    }, {
+      "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://schema.org/CreateAction"
+    }, {
+      "@id" : "http://schema.org/SoftwareApplication"
+    }, {
+      "@id" : "http://schema.org/SoftwareSourceCode"
+    }, {
+      "@id" : "https://bioschemas.org/ComputationalWorkflow"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/CreateAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/CreativeWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/DefinedTermSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/HowToStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/Intangible",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/MediaObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/PropertyValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/SoftwareApplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/SoftwareSourceCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/URL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/domainIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/hasDefinedTerm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/rangeIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/version",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://bioschemas.org/ComputationalWorkflow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://bioschemas.org/FormalParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://researchobject.org/workflow-run-crate/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://schema.org/name" : [ {
+    "@language" : "en-gb",
+    "@value" : "Workflow Run Crate task force"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  }, {
+    "@id" : "http://schema.org/Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "Workflow Run Crate task force"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://researchobject.org/workflow-run-crate/"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://spdx.org/licenses/Apache-2.0"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Workflow Run Crate namespace"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "wfrun"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://schema.org/creator" : [ {
+    "@id" : "https://researchobject.org/workflow-run-crate/"
+  } ],
+  "http://schema.org/description" : [ {
+    "@value" : "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl"
+  } ],
+  "http://schema.org/hasDefinedTerm" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#DockerImage"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#SIFImage"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#connection"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#containerImage"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#environment"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#md5"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#registry"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#sha1"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#sha256"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#sha512"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#sourceParameter"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#tag"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#targetParameter"
+  } ],
+  "http://schema.org/license" : [ {
+    "@id" : "http://spdx.org/licenses/Apache-2.0"
+  } ],
+  "http://schema.org/name" : [ {
+    "@value" : "Workflow Run Crate namespace"
+  } ],
+  "http://schema.org/url" : [ {
+    "@value" : "https://www.researchobject.org/ro-terms/workflow-run/"
+  } ],
+  "http://schema.org/version" : [ {
+    "@value" : "0.6.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://schema.org/DefinedTermSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A containerisation software container image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "ContainerImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#DockerImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A Docker container image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "DockerImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A connection between parameters of different applications"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "ParameterConnection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/Intangible"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#SIFImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A Singularity Image Format container image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "SIFImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#connection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/HowToStep"
+  }, {
+    "@id" : "https://bioschemas.org/ComputationalWorkflow"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A parameter connection created by this workflow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "connection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#containerImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/CreateAction"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/URL"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A container image associated with this entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://schema.org/CreateAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "containerImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#environment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/CreateAction"
+  }, {
+    "@id" : "http://schema.org/SoftwareApplication"
+  }, {
+    "@id" : "http://schema.org/SoftwareSourceCode"
+  }, {
+    "@id" : "https://bioschemas.org/ComputationalWorkflow"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/PropertyValue"
+  }, {
+    "@id" : "https://bioschemas.org/FormalParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "Environment variables used by the application"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#md5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/MediaObject"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "md5 checksum as a hexadecimal string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "md5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#registry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A service to register software products, such as container images"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "registry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#resourceUsage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/CreateAction"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/PropertyValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A resource usage item, such as peak memory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://schema.org/CreateAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "resourceUsage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://schema.org/PropertyValue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#sha1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/MediaObject"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "sha1 checksum as a hexadecimal string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://schema.org/MediaObject"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "sha1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#sha256",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/MediaObject"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "sha256 checksum as a hexadecimal string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "sha256"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#sha512",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/MediaObject"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "sha512 checksum as a hexadecimal string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "sha512"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#sourceParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "https://bioschemas.org/FormalParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "The source (upstream) parameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "sourceParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://bioschemas.org/FormalParameter"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#tag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://schema.org/MediaObject"
+  }, {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ContainerImage"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://schema.org/Text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "A tag assigned to a software product, such as a container image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "tag"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ro/terms/workflow-run#targetParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "https://bioschemas.org/FormalParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-gb",
+    "@value" : "The target (downstream) parameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#ParameterConnection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/ro/terms/workflow-run#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-gb",
+    "@value" : "targetParameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://bioschemas.org/FormalParameter"
+  } ]
+} ]

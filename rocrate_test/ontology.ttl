@@ -1,0 +1,397 @@
+@prefix : <https://w3id.org/ro/terms/workflow-run#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/ro/terms/workflow-run#> .
+
+<https://w3id.org/ro/terms/workflow-run#> rdf:type owl:Ontology ;
+                                           <http://purl.org/dc/terms/creator> <https://researchobject.org/workflow-run-crate/> ;
+                                           <http://purl.org/dc/terms/description> "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl" ;
+                                           <http://purl.org/dc/terms/license> <http://spdx.org/licenses/Apache-2.0> ;
+                                           <http://purl.org/dc/terms/title> "Workflow Run Crate namespace" ;
+                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "wfrun" ;
+                                           <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/ro/terms/workflow-run#" ;
+                                           <http://schema.org/creator> <https://researchobject.org/workflow-run-crate/> ;
+                                           <http://schema.org/description> "A Schema.org style Schema definition of WRROC terms. Minimal OWL typing for compatiblity with optional owl:imports https://schema.org/docs/schemaorg.owl" ;
+                                           <http://schema.org/hasDefinedTerm> :ContainerImage ,
+                                                                              :DockerImage ,
+                                                                              :ParameterConnection ,
+                                                                              :SIFImage ,
+                                                                              :connection ,
+                                                                              :containerImage ,
+                                                                              :environment ,
+                                                                              :md5 ,
+                                                                              :registry ,
+                                                                              :sha1 ,
+                                                                              :sha256 ,
+                                                                              :sha512 ,
+                                                                              :sourceParameter ,
+                                                                              :tag ,
+                                                                              :targetParameter ;
+                                           <http://schema.org/license> <http://spdx.org/licenses/Apache-2.0> ;
+                                           <http://schema.org/name> "Workflow Run Crate namespace" ;
+                                           <http://schema.org/url> "https://www.researchobject.org/ro-terms/workflow-run/" ;
+                                           <http://schema.org/version> "0.6.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/creator
+<http://schema.org/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/description
+<http://schema.org/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/domainIncludes
+<http://schema.org/domainIncludes> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/hasDefinedTerm
+<http://schema.org/hasDefinedTerm> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/license
+<http://schema.org/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/name
+<http://schema.org/name> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/rangeIncludes
+<http://schema.org/rangeIncludes> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/url
+<http://schema.org/url> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/version
+<http://schema.org/version> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/ro/terms/workflow-run#connection
+:connection rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( <http://schema.org/HowToStep>
+                                        <https://bioschemas.org/ComputationalWorkflow>
+                                      )
+                        ] ;
+            rdfs:range :ParameterConnection ;
+            <http://schema.org/domainIncludes> <http://schema.org/HowToStep> ,
+                                               <https://bioschemas.org/ComputationalWorkflow> ;
+            <http://schema.org/rangeIncludes> :ParameterConnection ;
+            rdfs:comment "A parameter connection created by this workflow"@en-gb ;
+            rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+            rdfs:label "connection"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#containerImage
+:containerImage rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://schema.org/CreateAction> ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:unionOf ( <http://schema.org/URL>
+                                           :ContainerImage
+                                         )
+                           ] ;
+                <http://schema.org/domainIncludes> <http://schema.org/CreateAction> ;
+                <http://schema.org/rangeIncludes> <http://schema.org/URL> ,
+                                                  :ContainerImage ;
+                rdfs:comment "A container image associated with this entity"@en-gb ;
+                rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+                rdfs:label "containerImage"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#environment
+:environment rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( <http://schema.org/CreateAction>
+                                         <http://schema.org/SoftwareApplication>
+                                         <http://schema.org/SoftwareSourceCode>
+                                         <https://bioschemas.org/ComputationalWorkflow>
+                                       )
+                         ] ;
+             rdfs:range [ rdf:type owl:Class ;
+                          owl:unionOf ( <http://schema.org/PropertyValue>
+                                        <https://bioschemas.org/FormalParameter>
+                                      )
+                        ] ;
+             <http://schema.org/domainIncludes> <http://schema.org/CreateAction> ,
+                                                <http://schema.org/SoftwareApplication> ,
+                                                <http://schema.org/SoftwareSourceCode> ,
+                                                <https://bioschemas.org/ComputationalWorkflow> ;
+             <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> ,
+                                               <https://bioschemas.org/FormalParameter> ;
+             rdfs:comment "Environment variables used by the application"@en-gb ;
+             rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+             rdfs:label "environment"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#resourceUsage
+:resourceUsage rdf:type owl:ObjectProperty ;
+               rdfs:domain <http://schema.org/CreateAction> ;
+               rdfs:range <http://schema.org/PropertyValue> ;
+               <http://schema.org/domainIncludes> <http://schema.org/CreateAction> ;
+               <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> ;
+               rdfs:comment "A resource usage item, such as peak memory"@en-gb ;
+               rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+               rdfs:label "resourceUsage"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#sourceParameter
+:sourceParameter rdf:type owl:ObjectProperty ;
+                 rdfs:domain :ParameterConnection ;
+                 rdfs:range <https://bioschemas.org/FormalParameter> ;
+                 <http://schema.org/domainIncludes> :ParameterConnection ;
+                 <http://schema.org/rangeIncludes> <https://bioschemas.org/FormalParameter> ;
+                 rdfs:comment "The source (upstream) parameter"@en-gb ;
+                 rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+                 rdfs:label "sourceParameter"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#targetParameter
+:targetParameter rdf:type owl:ObjectProperty ;
+                 rdfs:domain :ParameterConnection ;
+                 rdfs:range <https://bioschemas.org/FormalParameter> ;
+                 <http://schema.org/domainIncludes> :ParameterConnection ;
+                 <http://schema.org/rangeIncludes> <https://bioschemas.org/FormalParameter> ;
+                 rdfs:comment "The target (downstream) parameter"@en-gb ;
+                 rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+                 rdfs:label "targetParameter"@en-gb .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/ro/terms/workflow-run#md5
+:md5 rdf:type owl:DatatypeProperty ;
+     rdfs:domain [ rdf:type owl:Class ;
+                   owl:unionOf ( <http://schema.org/MediaObject>
+                                 :ContainerImage
+                               )
+                 ] ;
+     rdfs:range xsd:string ;
+     <http://schema.org/domainIncludes> <http://schema.org/MediaObject> ,
+                                        :ContainerImage ;
+     <http://schema.org/rangeIncludes> <http://schema.org/Text> ;
+     rdfs:comment "md5 checksum as a hexadecimal string"@en-gb ;
+     rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+     rdfs:label "md5"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#registry
+:registry rdf:type owl:DatatypeProperty ;
+          rdfs:domain :ContainerImage ;
+          rdfs:range xsd:string ;
+          <http://schema.org/domainIncludes> :ContainerImage ;
+          <http://schema.org/rangeIncludes> <http://schema.org/Text> ;
+          rdfs:comment "A service to register software products, such as container images"@en-gb ;
+          rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+          rdfs:label "registry"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#sha1
+:sha1 rdf:type owl:DatatypeProperty ;
+      rdfs:domain <http://schema.org/MediaObject> ,
+                  :ContainerImage ;
+      rdfs:range xsd:string ;
+      <http://schema.org/domainIncludes> <http://schema.org/MediaObject> ,
+                                         :ContainerImage ;
+      <http://schema.org/rangeIncludes> <http://schema.org/Text> ;
+      rdfs:comment "sha1 checksum as a hexadecimal string"@en-gb ;
+      rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+      rdfs:label "sha1"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#sha256
+:sha256 rdf:type owl:DatatypeProperty ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( <http://schema.org/MediaObject>
+                                    :ContainerImage
+                                  )
+                    ] ;
+        rdfs:range xsd:string ;
+        <http://schema.org/domainIncludes> <http://schema.org/MediaObject> ,
+                                           :ContainerImage ;
+        <http://schema.org/rangeIncludes> <http://schema.org/Text> ;
+        rdfs:comment "sha256 checksum as a hexadecimal string"@en-gb ;
+        rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+        rdfs:label "sha256"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#sha512
+:sha512 rdf:type owl:DatatypeProperty ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( <http://schema.org/MediaObject>
+                                    :ContainerImage
+                                  )
+                    ] ;
+        rdfs:range xsd:string ;
+        <http://schema.org/domainIncludes> <http://schema.org/MediaObject> ,
+                                           :ContainerImage ;
+        <http://schema.org/rangeIncludes> <http://schema.org/Text> ;
+        rdfs:comment "sha512 checksum as a hexadecimal string"@en-gb ;
+        rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+        rdfs:label "sha512"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#tag
+:tag rdf:type owl:DatatypeProperty ;
+     rdfs:domain [ rdf:type owl:Class ;
+                   owl:unionOf ( <http://schema.org/MediaObject>
+                                 :ContainerImage
+                               )
+                 ] ;
+     rdfs:range xsd:string ;
+     <http://schema.org/domainIncludes> <http://schema.org/MediaObject> ,
+                                        :ContainerImage ;
+     <http://schema.org/rangeIncludes> <http://schema.org/Text> ;
+     rdfs:comment "A tag assigned to a software product, such as a container image"@en-gb ;
+     rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+     rdfs:label "tag"@en-gb .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> rdf:type owl:Class .
+
+
+###  http://schema.org/CreateAction
+<http://schema.org/CreateAction> rdf:type owl:Class .
+
+
+###  http://schema.org/CreativeWork
+<http://schema.org/CreativeWork> rdf:type owl:Class .
+
+
+###  http://schema.org/DefinedTermSet
+<http://schema.org/DefinedTermSet> rdf:type owl:Class .
+
+
+###  http://schema.org/HowToStep
+<http://schema.org/HowToStep> rdf:type owl:Class .
+
+
+###  http://schema.org/Intangible
+<http://schema.org/Intangible> rdf:type owl:Class .
+
+
+###  http://schema.org/MediaObject
+<http://schema.org/MediaObject> rdf:type owl:Class .
+
+
+###  http://schema.org/Project
+<http://schema.org/Project> rdf:type owl:Class .
+
+
+###  http://schema.org/PropertyValue
+<http://schema.org/PropertyValue> rdf:type owl:Class .
+
+
+###  http://schema.org/SoftwareApplication
+<http://schema.org/SoftwareApplication> rdf:type owl:Class .
+
+
+###  http://schema.org/SoftwareSourceCode
+<http://schema.org/SoftwareSourceCode> rdf:type owl:Class .
+
+
+###  http://schema.org/URL
+<http://schema.org/URL> rdf:type owl:Class .
+
+
+###  https://bioschemas.org/ComputationalWorkflow
+<https://bioschemas.org/ComputationalWorkflow> rdf:type owl:Class .
+
+
+###  https://bioschemas.org/FormalParameter
+<https://bioschemas.org/FormalParameter> rdf:type owl:Class .
+
+
+###  https://w3id.org/ro/terms/workflow-run#ContainerImage
+:ContainerImage rdf:type owl:Class ;
+                rdfs:subClassOf <http://schema.org/CreativeWork> ;
+                rdfs:comment "A containerisation software container image"@en-gb ;
+                rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+                rdfs:label "ContainerImage"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#DockerImage
+:DockerImage rdf:type owl:Class ;
+             rdfs:subClassOf :ContainerImage ;
+             rdfs:comment "A Docker container image"@en-gb ;
+             rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+             rdfs:label "DockerImage"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#ParameterConnection
+:ParameterConnection rdf:type owl:Class ;
+                     rdfs:subClassOf <http://schema.org/Intangible> ;
+                     rdfs:comment "A connection between parameters of different applications"@en-gb ;
+                     rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+                     rdfs:label "ParameterConnection"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#SIFImage
+:SIFImage rdf:type owl:Class ;
+          rdfs:subClassOf :ContainerImage ;
+          rdfs:comment "A Singularity Image Format container image"@en-gb ;
+          rdfs:isDefinedBy <https://w3id.org/ro/terms/workflow-run#> ;
+          rdfs:label "SIFImage"@en-gb .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://researchobject.org/workflow-run-crate/
+<https://researchobject.org/workflow-run-crate/> rdf:type owl:NamedIndividual ,
+                                                          <http://purl.org/dc/terms/Agent> ,
+                                                          <http://schema.org/Project> ;
+                                                 <http://schema.org/name> "Workflow Run Crate task force"@en-gb ;
+                                                 rdfs:label "Workflow Run Crate task force"@en-gb .
+
+
+###  https://w3id.org/ro/terms/workflow-run#
+<https://w3id.org/ro/terms/workflow-run#> rdf:type owl:NamedIndividual ,
+                                                   <http://schema.org/DefinedTermSet> .
+
+
+###  Generated by the OWL API (version 5.1.18.2021-07-30T21:49:07Z) https://github.com/owlcs/owlapi/
